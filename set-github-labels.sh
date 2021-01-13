@@ -47,9 +47,9 @@ curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Severity/
 curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Severity/Minor","color":"e82c2c"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 
 #create issue type labels
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/Bug","color":"e82c2c"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/Docs","color":"e82c2c"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/Improvement","color":"e82c2c"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/New Feature","color":"e82c2c"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/Clarification","color":"e82c2c"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/Task","color":"e82c2c"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/Bug","color":"1d76db"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/Docs","color":"1d76db"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/Improvement","color":"1d76db"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/New Feature","color":"1d76db"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/Clarification","color":"1d76db"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"Type/Task","color":"1d76db"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
