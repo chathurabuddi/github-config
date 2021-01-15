@@ -4,7 +4,7 @@ echo 'A personal access token is required to access private repos.'
 
 echo ''
 echo -n 'GitHub Personal Access Token: '
-read -s TOKEN
+read TOKEN
 
 echo ''
 echo -n 'GitHub Org/Repo (e.g. foo/bar): '
